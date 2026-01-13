@@ -1,0 +1,10 @@
+[package]
+name = "egui-sdl2-renderer"
+version = "0.1.0"
+edition = "2024"
+description = "Egui painter using SDL2 Renderer"
+
+[dependencies]
+egui = "0.32"
+egui_sdl2_platform = "0.4.0"
+sdl2 = { version = "0.38.0", features = ["raw-window-handle"] }
