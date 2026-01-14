@@ -3,6 +3,11 @@ name = "egui-sdl2-renderer"
 version = "0.1.0"
 edition = "2024"
 description = "Egui painter using SDL2 Renderer"
+license = "MIT"
+homepage = "https://github.com/antonilol/egui-sdl2-renderer"
+repository = "https://github.com/antonilol/egui-sdl2-renderer"
+categories = ["gui", "game-development", "rendering"]
+keywords = ["gui", "egui", "sdl"]
 
 [dependencies]
 egui = "0.32"
